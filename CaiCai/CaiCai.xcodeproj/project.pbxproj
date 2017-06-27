@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE5C537C1F02093400F31BF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5C537B1F02093400F31BF3 /* main.m */; };
+		CE5C537F1F02093400F31BF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5C537E1F02093400F31BF3 /* AppDelegate.m */; };
+		CE5C53821F02093400F31BF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5C53811F02093400F31BF3 /* ViewController.m */; };
+		CE5C53851F02093400F31BF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5C53831F02093400F31BF3 /* Main.storyboard */; };
+		CE5C53871F02093400F31BF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5C53861F02093400F31BF3 /* Assets.xcassets */; };
+		CE5C538A1F02093400F31BF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5C53881F02093400F31BF3 /* LaunchScreen.storyboard */; };
+		CE5C53951F02093400F31BF3 /* CaiCaiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5C53941F02093400F31BF3 /* CaiCaiTests.m */; };
+		CE5C53A01F02093400F31BF3 /* CaiCaiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5C539F1F02093400F31BF3 /* CaiCaiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE5C53911F02093400F31BF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5C536F1F02093400F31BF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE5C53761F02093400F31BF3;
+			remoteInfo = CaiCai;
+		};
+		CE5C539C1F02093400F31BF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5C536F1F02093400F31BF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE5C53761F02093400F31BF3;
+			remoteInfo = CaiCai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE5C53771F02093400F31BF3 /* CaiCai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaiCai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5C537B1F02093400F31BF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE5C537D1F02093400F31BF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE5C537E1F02093400F31BF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE5C53801F02093400F31BF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE5C53811F02093400F31BF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE5C53841F02093400F31BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE5C53861F02093400F31BF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE5C53891F02093400F31BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE5C538B1F02093400F31BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5C53901F02093400F31BF3 /* CaiCaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaiCaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5C53941F02093400F31BF3 /* CaiCaiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaiCaiTests.m; sourceTree = "<group>"; };
+		CE5C53961F02093400F31BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5C539B1F02093400F31BF3 /* CaiCaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaiCaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5C539F1F02093400F31BF3 /* CaiCaiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaiCaiUITests.m; sourceTree = "<group>"; };
+		CE5C53A11F02093400F31BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE5C53741F02093400F31BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5C538D1F02093400F31BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5C53981F02093400F31BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE5C536E1F02093400F31BF3 = {
+			isa = PBXGroup;
+			children = (
+				CE5C53791F02093400F31BF3 /* CaiCai */,
+				CE5C53931F02093400F31BF3 /* CaiCaiTests */,
+				CE5C539E1F02093400F31BF3 /* CaiCaiUITests */,
+				CE5C53781F02093400F31BF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE5C53781F02093400F31BF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE5C53771F02093400F31BF3 /* CaiCai.app */,
+				CE5C53901F02093400F31BF3 /* CaiCaiTests.xctest */,
+				CE5C539B1F02093400F31BF3 /* CaiCaiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE5C53791F02093400F31BF3 /* CaiCai */ = {
+			isa = PBXGroup;
+			children = (
+				CE5C537D1F02093400F31BF3 /* AppDelegate.h */,
+				CE5C537E1F02093400F31BF3 /* AppDelegate.m */,
+				CE5C53801F02093400F31BF3 /* ViewController.h */,
+				CE5C53811F02093400F31BF3 /* ViewController.m */,
+				CE5C53831F02093400F31BF3 /* Main.storyboard */,
+				CE5C53861F02093400F31BF3 /* Assets.xcassets */,
+				CE5C53881F02093400F31BF3 /* LaunchScreen.storyboard */,
+				CE5C538B1F02093400F31BF3 /* Info.plist */,
+				CE5C537A1F02093400F31BF3 /* Supporting Files */,
+			);
+			path = CaiCai;
+			sourceTree = "<group>";
+		};
+		CE5C537A1F02093400F31BF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE5C537B1F02093400F31BF3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE5C53931F02093400F31BF3 /* CaiCaiTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE5C53941F02093400F31BF3 /* CaiCaiTests.m */,
+				CE5C53961F02093400F31BF3 /* Info.plist */,
+			);
+			path = CaiCaiTests;
+			sourceTree = "<group>";
+		};
+		CE5C539E1F02093400F31BF3 /* CaiCaiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE5C539F1F02093400F31BF3 /* CaiCaiUITests.m */,
+				CE5C53A11F02093400F31BF3 /* Info.plist */,
+			);
+			path = CaiCaiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE5C53761F02093400F31BF3 /* CaiCai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE5C53A41F02093400F31BF3 /* Build configuration list for PBXNativeTarget "CaiCai" */;
+			buildPhases = (
+				CE5C53731F02093400F31BF3 /* Sources */,
+				CE5C53741F02093400F31BF3 /* Frameworks */,
+				CE5C53751F02093400F31BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaiCai;
+			productName = CaiCai;
+			productReference = CE5C53771F02093400F31BF3 /* CaiCai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE5C538F1F02093400F31BF3 /* CaiCaiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE5C53A71F02093400F31BF3 /* Build configuration list for PBXNativeTarget "CaiCaiTests" */;
+			buildPhases = (
+				CE5C538C1F02093400F31BF3 /* Sources */,
+				CE5C538D1F02093400F31BF3 /* Frameworks */,
+				CE5C538E1F02093400F31BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE5C53921F02093400F31BF3 /* PBXTargetDependency */,
+			);
+			name = CaiCaiTests;
+			productName = CaiCaiTests;
+			productReference = CE5C53901F02093400F31BF3 /* CaiCaiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE5C539A1F02093400F31BF3 /* CaiCaiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE5C53AA1F02093400F31BF3 /* Build configuration list for PBXNativeTarget "CaiCaiUITests" */;
+			buildPhases = (
+				CE5C53971F02093400F31BF3 /* Sources */,
+				CE5C53981F02093400F31BF3 /* Frameworks */,
+				CE5C53991F02093400F31BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE5C539D1F02093400F31BF3 /* PBXTargetDependency */,
+			);
+			name = CaiCaiUITests;
+			productName = CaiCaiUITests;
+			productReference = CE5C539B1F02093400F31BF3 /* CaiCaiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE5C536F1F02093400F31BF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = pdid;
+				TargetAttributes = {
+					CE5C53761F02093400F31BF3 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					CE5C538F1F02093400F31BF3 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE5C53761F02093400F31BF3;
+					};
+					CE5C539A1F02093400F31BF3 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE5C53761F02093400F31BF3;
+					};
+				};
+			};
+			buildConfigurationList = CE5C53721F02093400F31BF3 /* Build configuration list for PBXProject "CaiCai" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE5C536E1F02093400F31BF3;
+			productRefGroup = CE5C53781F02093400F31BF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE5C53761F02093400F31BF3 /* CaiCai */,
+				CE5C538F1F02093400F31BF3 /* CaiCaiTests */,
+				CE5C539A1F02093400F31BF3 /* CaiCaiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE5C53751F02093400F31BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5C538A1F02093400F31BF3 /* LaunchScreen.storyboard in Resources */,
+				CE5C53871F02093400F31BF3 /* Assets.xcassets in Resources */,
+				CE5C53851F02093400F31BF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5C538E1F02093400F31BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5C53991F02093400F31BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE5C53731F02093400F31BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5C53821F02093400F31BF3 /* ViewController.m in Sources */,
+				CE5C537F1F02093400F31BF3 /* AppDelegate.m in Sources */,
+				CE5C537C1F02093400F31BF3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5C538C1F02093400F31BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5C53951F02093400F31BF3 /* CaiCaiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5C53971F02093400F31BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5C53A01F02093400F31BF3 /* CaiCaiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE5C53921F02093400F31BF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE5C53761F02093400F31BF3 /* CaiCai */;
+			targetProxy = CE5C53911F02093400F31BF3 /* PBXContainerItemProxy */;
+		};
+		CE5C539D1F02093400F31BF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE5C53761F02093400F31BF3 /* CaiCai */;
+			targetProxy = CE5C539C1F02093400F31BF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE5C53831F02093400F31BF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE5C53841F02093400F31BF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE5C53881F02093400F31BF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE5C53891F02093400F31BF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE5C53A21F02093400F31BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE5C53A31F02093400F31BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE5C53A51F02093400F31BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CaiCai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bianjianbo.CaiCai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE5C53A61F02093400F31BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CaiCai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bianjianbo.CaiCai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE5C53A81F02093400F31BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CaiCaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bianjianbo.CaiCaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaiCai.app/CaiCai";
+			};
+			name = Debug;
+		};
+		CE5C53A91F02093400F31BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CaiCaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bianjianbo.CaiCaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaiCai.app/CaiCai";
+			};
+			name = Release;
+		};
+		CE5C53AB1F02093400F31BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CaiCaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bianjianbo.CaiCaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CaiCai;
+			};
+			name = Debug;
+		};
+		CE5C53AC1F02093400F31BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CaiCaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bianjianbo.CaiCaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CaiCai;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE5C53721F02093400F31BF3 /* Build configuration list for PBXProject "CaiCai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5C53A21F02093400F31BF3 /* Debug */,
+				CE5C53A31F02093400F31BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE5C53A41F02093400F31BF3 /* Build configuration list for PBXNativeTarget "CaiCai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5C53A51F02093400F31BF3 /* Debug */,
+				CE5C53A61F02093400F31BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE5C53A71F02093400F31BF3 /* Build configuration list for PBXNativeTarget "CaiCaiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5C53A81F02093400F31BF3 /* Debug */,
+				CE5C53A91F02093400F31BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE5C53AA1F02093400F31BF3 /* Build configuration list for PBXNativeTarget "CaiCaiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5C53AB1F02093400F31BF3 /* Debug */,
+				CE5C53AC1F02093400F31BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE5C536F1F02093400F31BF3 /* Project object */;
+}
