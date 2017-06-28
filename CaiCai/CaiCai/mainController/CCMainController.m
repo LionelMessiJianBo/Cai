@@ -6,16 +6,17 @@
 //  Copyright © 2017年 pdid. All rights reserved.
 //
 
-#import "ViewController.h"
-@interface ViewController ()
+#import "CCMainController.h"
+@interface CCMainController ()
 
 @end
 
-@implementation ViewController
+@implementation CCMainController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    self.view.backgroundColor = [UIColor redColor];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

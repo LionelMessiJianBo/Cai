@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		CE5C537C1F02093400F31BF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5C537B1F02093400F31BF3 /* main.m */; };
 		CE5C537F1F02093400F31BF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5C537E1F02093400F31BF3 /* AppDelegate.m */; };
-		CE5C53821F02093400F31BF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5C53811F02093400F31BF3 /* ViewController.m */; };
 		CE5C53851F02093400F31BF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5C53831F02093400F31BF3 /* Main.storyboard */; };
 		CE5C53871F02093400F31BF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5C53861F02093400F31BF3 /* Assets.xcassets */; };
 		CE5C538A1F02093400F31BF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5C53881F02093400F31BF3 /* LaunchScreen.storyboard */; };
@@ -59,6 +58,8 @@
 		CE9DBFBA1F033695006D3CAA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9DBFB91F033695006D3CAA /* CFNetwork.framework */; };
 		CE9DBFBC1F0336A4006D3CAA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9DBFBB1F0336A4006D3CAA /* MobileCoreServices.framework */; };
 		CE9DBFBE1F0336B1006D3CAA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9DBFBD1F0336B1006D3CAA /* SystemConfiguration.framework */; };
+		CE9DBFC81F038697006D3CAA /* CCBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9DBFC71F038697006D3CAA /* CCBaseController.m */; };
+		CE9DBFCC1F0388C5006D3CAA /* CCMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9DBFCB1F0388C5006D3CAA /* CCMainController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,8 +84,6 @@
 		CE5C537B1F02093400F31BF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE5C537D1F02093400F31BF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE5C537E1F02093400F31BF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CE5C53801F02093400F31BF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CE5C53811F02093400F31BF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CE5C53841F02093400F31BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE5C53861F02093400F31BF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE5C53891F02093400F31BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -184,6 +183,10 @@
 		CE9DBFB91F033695006D3CAA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		CE9DBFBB1F0336A4006D3CAA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		CE9DBFBD1F0336B1006D3CAA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CE9DBFC61F038697006D3CAA /* CCBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBaseController.h; sourceTree = "<group>"; };
+		CE9DBFC71F038697006D3CAA /* CCBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBaseController.m; sourceTree = "<group>"; };
+		CE9DBFCA1F0388C5006D3CAA /* CCMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCMainController.h; sourceTree = "<group>"; };
+		CE9DBFCB1F0388C5006D3CAA /* CCMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCMainController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,10 +242,10 @@
 		CE5C53791F02093400F31BF3 /* CaiCai */ = {
 			isa = PBXGroup;
 			children = (
+				CE9DBFC51F038644006D3CAA /* BaseController */,
+				CE9DBFC91F038850006D3CAA /* mainController */,
 				CE5C537D1F02093400F31BF3 /* AppDelegate.h */,
 				CE5C537E1F02093400F31BF3 /* AppDelegate.m */,
-				CE5C53801F02093400F31BF3 /* ViewController.h */,
-				CE5C53811F02093400F31BF3 /* ViewController.m */,
 				CE5C53831F02093400F31BF3 /* Main.storyboard */,
 				CE5C53861F02093400F31BF3 /* Assets.xcassets */,
 				CE5C53881F02093400F31BF3 /* LaunchScreen.storyboard */,
@@ -414,6 +417,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CE9DBFC51F038644006D3CAA /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				CE9DBFC61F038697006D3CAA /* CCBaseController.h */,
+				CE9DBFC71F038697006D3CAA /* CCBaseController.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		CE9DBFC91F038850006D3CAA /* mainController */ = {
+			isa = PBXGroup;
+			children = (
+				CE9DBFCA1F0388C5006D3CAA /* CCMainController.h */,
+				CE9DBFCB1F0388C5006D3CAA /* CCMainController.m */,
+			);
+			path = mainController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -555,7 +576,6 @@
 				CE9DBECA1F032E7E006D3CAA /* SDWebImageCompat.m in Sources */,
 				CE9DBED11F032E7E006D3CAA /* UIImage+GIF.m in Sources */,
 				CE9DBECF1F032E7E006D3CAA /* SDWebImagePrefetcher.m in Sources */,
-				CE5C53821F02093400F31BF3 /* ViewController.m in Sources */,
 				CE9DBED31F032E7E006D3CAA /* UIImage+WebP.m in Sources */,
 				CE9DBF691F03337F006D3CAA /* ZTool.m in Sources */,
 				CE9DBFB11F033464006D3CAA /* NSString+Helper.m in Sources */,
@@ -580,7 +600,9 @@
 				CE9DBFB21F033464006D3CAA /* UIColor+Extension.m in Sources */,
 				CE9DBED61F032E7E006D3CAA /* UIView+WebCacheOperation.m in Sources */,
 				CE9DBF911F0333FD006D3CAA /* AFHTTPSessionManager.m in Sources */,
+				CE9DBFCC1F0388C5006D3CAA /* CCMainController.m in Sources */,
 				CE9DBED01F032E7E006D3CAA /* UIButton+WebCache.m in Sources */,
+				CE9DBFC81F038697006D3CAA /* CCBaseController.m in Sources */,
 				CE5C537F1F02093400F31BF3 /* AppDelegate.m in Sources */,
 				CE9DBEC81F032E7E006D3CAA /* NSData+ImageContentType.m in Sources */,
 				CE5C537C1F02093400F31BF3 /* main.m in Sources */,
