@@ -1,0 +1,16 @@
+//
+//  CC-PrefixHeader.pch
+//  CaiCai
+//
+//  Created by pdid on 2017/6/28.
+//  Copyright © 2017年 pdid. All rights reserved.
+//
+
+#ifndef CC_PrefixHeader_pch
+#define CC_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <UIKit/UIKit.h>
+
+#endif /* CC_PrefixHeader_pch */
